@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\fbneffe\\Documents\\GitHub\\Thesis\\BaybayinApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "outputFile": "C:\\Users\\jtsbellezas\\Desktop\\Thesis_Draft3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\fbneffe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\fdb0b60abcddacaa1095e042a8350f9d\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\jtsbellezas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\460909ad0b044318cd03aaabf7730561\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
