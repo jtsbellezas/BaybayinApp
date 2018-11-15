@@ -4,15 +4,226 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Chart">
+    android:orientation="vertical"
+    tools:context=".Chart"
+    android:weightSum="50">
 
-    <GridView
-        android:id="@+id/gridview"
-        android:numColumns="auto_fit"
-        android:gravity="center"
-        android:columnWidth="100dp"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </GridView>
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:weightSum="3"
+        android:orientation="horizontal">
 
+        <Button
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A "
+            android:textSize="50dp"/>
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B" />
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="K" />
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="D" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="E" />
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="G" />
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="H" />
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="I" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="L" />
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="M" />
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="" />
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="N" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="O" />
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="P" />
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="R" />
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="S" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="50dp"
+            android:id="@+id/button20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/baybayin_clu"
+            android:text="T" />
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="U" />
+
+        <Button
+            android:textSize="50dp"
+            android:id="@+id/button18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/baybayin_clu"
+            android:text="W" />
+
+        <Button
+            android:textSize="50dp"
+            android:fontFamily="@font/baybayin_clu"
+            android:id="@+id/button17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Y" />
+    </LinearLayout>
 </LinearLayout>
