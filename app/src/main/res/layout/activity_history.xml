@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:background="@drawable/background"
     tools:context=".History">
 
     <android.support.v4.view.ViewPager
+        android:id="@+id/slideViewPager"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:id="@+id/viewPager"
-        android:layout_centerInParent="true"
-        />
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp">
+    </android.support.v4.view.ViewPager>
 
 </RelativeLayout>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jtsbellezas\\Desktop\\Thesis_Draft3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\msilveo\\AndroidStudioProjects\\BaybayinApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jtsbellezas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\460909ad0b044318cd03aaabf7730561\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\msilveo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\4cdf3cb26b9f133c1113f8771f4855c7\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jtsbellezas\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-25.3.1.aar\\e18956c815d4a211cd0dbeb013aa134c\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\msilveo\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-25.3.1.aar\\cfc282290abe4133c38501f2efc26252\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(i);
             break;
 
-            case R.id.chartCard: i = new Intent(this,Chart.class);
+            /*case R.id.chartCard: i = new Intent(this,Chart.class);
             startActivity(i);
-            break;
+            break;*/
 
             case R.id.learnCard: i = new Intent(this,Learn.class);
             startActivity(i);

@@ -7,9 +7,19 @@ import android.view.View;
 
 public class History extends AppCompatActivity {
 
+    private ViewPager mSlideViewPager;
+    private SliderAdapter sliderAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_history);
+
+        mSlideViewPager = (ViewPager) findViewById(R.id.slideViewPager);
+
+        sliderAdapter = new SliderAdapter(this);
+
+        mSlideViewPager.setAdapter(sliderAdapter);
+
     }
 }

@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.GridView;
 
-public class Chart extends AppCompatActivity {
+/*public class Chart extends AppCompatActivity {
     GridView gridView;
 
     String[] values = {
@@ -56,4 +56,4 @@ public class Chart extends AppCompatActivity {
 
         gridView.setAdapter(gridAdapter);
     }
-}
+}*/
