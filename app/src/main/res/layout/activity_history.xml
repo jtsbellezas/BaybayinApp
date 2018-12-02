@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:background="@drawable/background"
     tools:context=".History">
 
     <android.support.v4.view.ViewPager
@@ -12,7 +11,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
         android:layout_marginBottom="0dp">
     </android.support.v4.view.ViewPager>
+
+    <Button
+        android:id="@+id/backBtn"
+        android:onClick="previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/mainbutton"
+        android:text="BACK"
+        android:textStyle="bold" />
 
 </RelativeLayout>

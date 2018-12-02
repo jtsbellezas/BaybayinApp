@@ -425,6 +425,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color backgroundcolor
+color bgBtn
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -754,6 +755,7 @@ drawable india
 drawable ka
 drawable la
 drawable ma
+drawable mainbutton
 drawable materialbackground
 drawable na
 drawable navigation_empty_icon
@@ -804,6 +806,7 @@ id alertTitle
 id all
 id always
 id auto
+id backBtn
 id basic
 id beginning
 id bottom
