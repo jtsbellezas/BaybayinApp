@@ -816,6 +816,9 @@ id button18
 id button19
 id button2
 id button20
+id button21
+id button22
+id button23
 id button3
 id button4
 id button5
@@ -829,7 +832,6 @@ id center
 id center_horizontal
 id center_vertical
 id chains
-id chartCard
 id checkbox
 id chronometer
 id clip_horizontal
@@ -859,7 +861,6 @@ id fill_horizontal
 id fill_vertical
 id fixed
 id gridview
-id historyCard
 id historyCardId
 id home
 id homeAsUp
@@ -871,7 +872,6 @@ id imageview
 id info
 id item_touch_helper_previous_elevation
 id largeLabel
-id learnCard
 id left
 id line1
 id line3
@@ -896,7 +896,6 @@ id parentPanel
 id pin
 id progress_circular
 id progress_horizontal
-id quizCard
 id radio
 id right
 id right_icon
@@ -957,6 +956,9 @@ id textView2
 id textView20
 id textView21
 id textView22
+id textView23
+id textView24
+id textView25
 id textView3
 id textView4
 id textView5

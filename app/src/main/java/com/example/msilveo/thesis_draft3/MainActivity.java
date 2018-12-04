@@ -1,56 +1,91 @@
 package com.example.msilveo.thesis_draft3;
 
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.CardView;
 import android.view.View;
+import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private CardView historyCard, chartCard, learnCard, quizCard;
+
+
+public class MainActivity extends AppCompatActivity {
+
+    //main buttons
+    private Button hBttn;
+    private Button lBttn;
+    private Button qBttn;
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // defining Cards
-        historyCard = (CardView) findViewById(R.id.historyCard);
-        chartCard = (CardView) findViewById(R.id.chartCard);
-        learnCard = (CardView) findViewById(R.id.learnCard);
-        quizCard = (CardView) findViewById(R.id.quizCard);
 
-        //Add Click listener to the cards
-        historyCard.setOnClickListener(this);
-        chartCard.setOnClickListener(this);
-        learnCard.setOnClickListener(this);
-        quizCard.setOnClickListener(this);
+        mainButtonFunc();
+
+
     }
 
-    @Override
-    public void onClick(View v)
-    {
-        Intent i;
+    public void mainButtonFunc(){
 
-        switch (v.getId())
-        {
-            case R.id.historyCard: i = new Intent(this,History.class);
-            startActivity(i);
-            break;
 
-            case R.id.chartCard: i = new Intent(this,Chart.class);
-            startActivity(i);
-            break;
+        hBttn = (Button) findViewById(R.id.button21);
+        lBttn = (Button) findViewById(R.id.button22);
+        qBttn = (Button) findViewById(R.id.button23);
 
-            case R.id.learnCard: i = new Intent(this,Learn.class);
-            startActivity(i);
-            break;
+        hBttn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-            case R.id.quizCard: i = new Intent(this,Quiz.class);
-            startActivity(i);
-            break;
+                openHistory();
 
-            default:break;
-        }
+
+            }
+        });
+
+        lBttn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                openLearn();
+
+            }
+        });
+
+        qBttn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                openQuiz();
+            }
+        });
+
     }
+
+    public void openHistory(){
+
+        Intent intent = new Intent(this, History.class);
+        startActivity(intent);
+
+    }
+
+    public void openLearn(){
+
+        Intent intent = new Intent(this, Chart.class);
+        startActivity(intent);
+
+    }
+
+    public void openQuiz(){
+
+        Intent intent = new Intent(this, Quiz.class);
+        startActivity(intent);
+
+    }
+
 }
 
