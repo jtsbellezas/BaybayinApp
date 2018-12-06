@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\fbneffe\\Documents\\GitHub\\Thesis\\BaybayinApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\Users\\jtsbellezas\\Desktop\\BaybayinApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\fbneffe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\fdb0b60abcddacaa1095e042a8350f9d\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\jtsbellezas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\460909ad0b044318cd03aaabf7730561\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\fbneffe\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\8825cf2bb89e73498c52f893d435343b\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\jtsbellezas\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\86fb62d3ab5371e93c4b83c3f29a56c5\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
