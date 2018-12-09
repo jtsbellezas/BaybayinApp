@@ -32,4 +32,5 @@ public class History extends AppCompatActivity {
     public void previous(View view){
         startActivity(new Intent(History.this,MainActivity.class));
     }
+    //comment
 }
